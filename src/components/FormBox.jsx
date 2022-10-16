@@ -14,6 +14,7 @@ const FormBox = () => {
       <FormControl>
         <FormLabel>Nome</FormLabel>
         <Input
+          color="white"
           p={2}
           mb={3}
           _hover="#f5c451"
@@ -24,6 +25,7 @@ const FormBox = () => {
         />
         <FormLabel>Email</FormLabel>
         <Input
+          color="white"
           p={2}
           mb={3}
           _hover="#f5c451"
@@ -34,6 +36,7 @@ const FormBox = () => {
         />
         <FormLabel>Telemovel</FormLabel>
         <Input
+          color="white"
           type="number"
           p={2}
           mb={3}
@@ -45,6 +48,7 @@ const FormBox = () => {
         />
         <FormLabel>Menssagem</FormLabel>
         <Textarea
+          color="white"
           p={2}
           mb={3}
           _hover="#f5c451"
